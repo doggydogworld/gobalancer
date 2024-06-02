@@ -1,0 +1,12 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = req_ext
+
+[req_distinguished_name]
+commonName = localhost
+
+[req_ext]
+subjectAltName = @alt_names
+
+[alt_names]
+IP = 127.0.0.1
